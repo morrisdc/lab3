@@ -1,0 +1,27 @@
+date: tells the user current date and time
+ls -ltr: list files in directory with permissions user and creation time
+cd ..: go up one directory
+pwd: present working directory, what directory you are in
+who: current users
+whoami: tells who you are 
+man man: shows the manual for using the manual
+env: shows properties of your machine
+
+mkdir <newdirectory>
+mv <directory> <newdirectory>
+cd ~: change to root directory
+cp <filename> <newfilename>
+mkdir tmp
+rmdir tmp
+cat <filename>
+more <filename>
+head <filename>
+tail <filename>
+grep -H -r "the" directory
+find /home/ -name "<filename>"
+     	-find directory you want to look in
+zip <zipfilename>.zip directory wanted to zip
+unzip dir.zip -d ./tmp/
+tar -cvf dir.tar CSCI3308/
+tar -C tmp/ -xvf dir.tar
+touch -m <filename>
