@@ -1,3 +1,4 @@
+Hi David,
 date: tells the user current date and time
 ls -ltr: list files in directory with permissions user and creation time
 cd ..: go up one directory
